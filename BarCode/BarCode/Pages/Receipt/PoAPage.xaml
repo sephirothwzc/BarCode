@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BarCode.Pages.Receipt.PoAPage"
+             BackgroundColor="White"
+             >
+  <ContentPage.Content >
+    <Grid Padding="50, 10,10,50" >
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="100" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <!-- Row 0 -->
+      <Label Text="PO号" Grid.Row="0" Grid.Column="0" Font="Large" YAlign="End" XAlign="Start"   />
+      <Entry Grid.Row="0" Grid.Column="1" Keyboard="Numeric" Placeholder="PO号" Text=""  BackgroundColor="Transparent" />
+      <!-- Row 1 -->
+      <Label x:Name="labPronum" Text="项号" Grid.Row="1" Grid.Column="0" Font="Large" YAlign="End" XAlign="Start"   />
+      <Entry x:Name="EntPro" Grid.Row="1" Grid.Column="1" Keyboard="Numeric" Placeholder="项号" Text=""/>
+      <!-- Row 2 -->
+      <Label x:Name="labMnum" Text="物料号" Grid.Row="2" Grid.Column="0" Font="Large" YAlign="End" XAlign="Start"   />
+      <Entry x:Name="EntPoM" Grid.Row="2" Grid.Column="1" Keyboard="Numeric" Placeholder="物料号" Text=""/>
+      <!-- Row 3 -->
+      <Label x:Name="labMD" Text="物料描述" Grid.Row="3" Grid.Column="0" Font="Large" YAlign="End" XAlign="Start"   />
+      <Entry x:Name="EntMD" Grid.Row="3" Grid.Column="1" Keyboard="Numeric" Placeholder="物料描述" Text=""/>
+      <!-- Row 4 -->
+      <Label x:Name="labSdate" Text="生产日期" Grid.Row="4" Grid.Column="0" Font="Large" YAlign="End" XAlign="Start"   />
+      <DatePicker x:Name="dp_time" Date="2016-02-01" Grid.Row="4" Grid.Column="1"  />
+      <!-- Row 5 -->
+      <Label x:Name="labamount" Text="可收货数量" Grid.Row="5" Grid.Column="0" Font="Large" YAlign="End" XAlign="Start" />
+      <Entry x:Name="Entamount" Grid.Row="5" Grid.Column="1" Keyboard="Numeric" Placeholder="可收货数量" Text=""/>
+      <!-- Row 6 -->
+      <Label x:Name="labYamount" Text="收货数量" Grid.Row="6" Grid.Column="0" Font="Large" YAlign="End" XAlign="Start"   />
+      <Entry x:Name="EntYamount" Grid.Row="6" Grid.Column="1" Keyboard="Numeric" Placeholder="收货数量" Text=""/>
+      <!-- Row 7 -->
+      <Label x:Name="labaddress" Text="存库地点" Grid.Row="7" Grid.Column="0" Font="Large" YAlign="End" XAlign="Start"   />
+      <Entry x:Name="Entaddress" Grid.Row="7" Grid.Column="1" Keyboard="Numeric" Placeholder="存库地点" Text=""/>
+      <!-- Row 8 -->
+      <Label x:Name="labpositions" Text="仓位" Grid.Row="8" Grid.Column="0" Font="Large" YAlign="End" XAlign="Start"  />
+      <Entry x:Name="Entpositions" Grid.Row="8" Grid.Column="1" Keyboard="Numeric" Placeholder="存库地点" Text=""/>
+      <!-- Row 9 -->
+      <Label x:Name="laboutDate" Text="过账日期" Grid.Row="9" Grid.Column="0" Font="Large" YAlign="End" XAlign="Start"   />
+      <DatePicker x:Name="dp_outtime"	Date="2016-02-01"  Grid.Row="9" Grid.Column="1"		/>
+      <!-- Row10 -->
+      <Label
+              x:Name="SignInButton" Grid.Row="10" Grid.Column="0"
+									 
+              Text="过账"
+              TextColor="Silver"
+              XAlign="Center"
+              YAlign="Center"
+              HeightRequest="44"
+									 />
+      <Label
+    x:Name="SignInButton1" Grid.Row="10" Grid.Column="1"
+									 
+    Text="重置"
+    TextColor="Silver"
+
+    XAlign="Center"
+    YAlign="Center"
+    HeightRequest="44"
+									 />
+    </Grid>
+
+
+  </ContentPage.Content>
+</ContentPage>
