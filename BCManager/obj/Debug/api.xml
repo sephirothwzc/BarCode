@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="android.hardware.bcreader">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BCRBarCodeValue" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BCRBarCodeValue" static="false" type="android.hardware.bcreader.BCRBarCodeValue" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_ALL" static="true" transient="false" type="int" type-generic-aware="int" value="100" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_AZTEC" static="true" transient="false" type="int" type-generic-aware="int" value="59" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_BOOKLAN_EAN" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_CHINESE_2_OF_5" static="true" transient="false" type="int" type-generic-aware="int" value="20" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_CODABAR" static="true" transient="false" type="int" type-generic-aware="int" value="18" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_CODE_11" static="true" transient="false" type="int" type-generic-aware="int" value="15" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_CODE_128" static="true" transient="false" type="int" type-generic-aware="int" value="7" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_CODE_32" static="true" transient="false" type="int" type-generic-aware="int" value="13" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_CODE_39" static="true" transient="false" type="int" type-generic-aware="int" value="10" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_CODE_39_FULL_ASCII" static="true" transient="false" type="int" type-generic-aware="int" value="11" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_CODE_93" static="true" transient="false" type="int" type-generic-aware="int" value="14" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_COMPOSITE_CODES" static="true" transient="false" type="int" type-generic-aware="int" value="55" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_DATA_MATRIX" static="true" transient="false" type="int" type-generic-aware="int" value="51" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_DISCRETE_2_OF_5" static="true" transient="false" type="int" type-generic-aware="int" value="17" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_GS1_128" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_GS1_DATABAR_VAR" static="true" transient="false" type="int" type-generic-aware="int" value="21" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_INTERLEAVED_2_OF_5" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_ISBT_128" static="true" transient="false" type="int" type-generic-aware="int" value="9" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_ISBT_CONCAT" static="true" transient="false" type="int" type-generic-aware="int" value="23" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_ISSN" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_KOREAN_3_OF_5" static="true" transient="false" type="int" type-generic-aware="int" value="22" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_MATRIX_2_OF_5" static="true" transient="false" type="int" type-generic-aware="int" value="16" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_MAXICODE" static="true" transient="false" type="int" type-generic-aware="int" value="56" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_MICROPDF417" static="true" transient="false" type="int" type-generic-aware="int" value="53" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_MICROQR" static="true" transient="false" type="int" type-generic-aware="int" value="58" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_MSI" static="true" transient="false" type="int" type-generic-aware="int" value="19" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_PDF417" static="true" transient="false" type="int" type-generic-aware="int" value="52" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_QR_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="57" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_TLC_39" static="true" transient="false" type="int" type-generic-aware="int" value="54" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_TRIOPTIC_CODE_39" static="true" transient="false" type="int" type-generic-aware="int" value="12" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_UCC_COUPON_EXT" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_UNKNOWN" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_UPC_EAN" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CODE_TYPE_UPC_EAN_SUPPLEMENTALS" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Exception" extends-generic-aware="java.lang.Exception" final="false" name="BCRException" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BCRException" static="false" type="android.hardware.bcreader.BCRException" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="BCRInterface" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="close" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="disableBeep" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="disableCode" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="enableBeep" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="enableCode" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getHWInformation" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getImage" native="false" return="android.graphics.Bitmap" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getSWVersion" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getTicketInfo" native="false" return="android.hardware.bcreader.BCRTicketInfo[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="isReady" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="open" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="registerListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.hardware.bcreader.BCRListener">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setAim" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setParam" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="setUserLED" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="sleep" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="startScan" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="stopScan" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="wakeup" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="NOTSUPPORTED" static="true" transient="false" type="int" type-generic-aware="int" value="-100" visibility="public" volatile="false">
+</field>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="BCRListener" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onOpened" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onScanFinished" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BCRManager" static="false" visibility="public">
+<implements name="android.hardware.bcreader.BCRInterface" name-generic-aware="android.hardware.bcreader.BCRInterface">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="close" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="disableBeep" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="disableCode" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="enableBeep" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="enableCode" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="flashLightOff" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="flashLightOn" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getHWInformation" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getImage" native="false" return="android.graphics.Bitmap" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getInstance" native="false" return="android.hardware.bcreader.BCRManager" static="true" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSWVersion" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTicketInfo" native="false" return="android.hardware.bcreader.BCRTicketInfo[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTopspeed" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isReady" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isTopspeedSupported" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="open" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="registerListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.hardware.bcreader.BCRListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAim" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setParam" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.HashMap&lt;java.lang.String, java.lang.String&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTimeout" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTopspeed" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setUserLED" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="sleep" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="startScan" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="stopScan" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="wakeup" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="SCAN_MODE_CONTINUE" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SCAN_MODE_ONESHOT" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SCAN_TYPE_DOUBLE" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SCAN_TYPE_SINGLE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BCRManager.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BCRManager.2" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BCRManager.3" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BCRManager.4" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BCRManager.5" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BCRManager.6" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BCRManager.7" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.content.BroadcastReceiver" extends-generic-aware="android.content.BroadcastReceiver" final="false" name="BCRManager.8" static="false" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="onReceive" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.content.Intent">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BCRManager.LightRunnable" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="disable" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="enable" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BCRManager.ScanRunnable" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="disable" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="enable" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setSingleOrDoubleCode" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="BCRTicketInfo" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BCRTicketInfo" static="false" type="android.hardware.bcreader.BCRTicketInfo" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="BCRTicketInfo" static="false" type="android.hardware.bcreader.BCRTicketInfo" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTicketType" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTicketValue" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MapUtils" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="MapUtils" static="false" type="android.hardware.bcreader.MapUtils" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="ConvertExtToMine" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="ConvertMineToExt" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MapUtils.ResultCode" static="false" visibility=""/>
+</package>
+<package name="com.hsm.barcode">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DecodeResult" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DecodeResult" static="false" type="com.hsm.barcode.DecodeResult" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="false" name="aimId" static="false" transient="false" type="byte" type-generic-aware="byte" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="aimModifier" static="false" transient="false" type="byte" type-generic-aware="byte" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="barcodeData" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="byteBarcodeData" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" value="null" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="codeId" static="false" transient="false" type="byte" type-generic-aware="byte" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="length" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DecodeWindowing" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DecodeWindowing" static="false" type="com.hsm.barcode.DecodeWindowing" visibility="public">
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecodeWindowing.DecodeWindow" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DecodeWindowing.DecodeWindow" static="false" type="com.hsm.barcode.DecodeWindowing.DecodeWindow" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="false" name="LowerRightX" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="LowerRightY" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="UpperLeftX" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="UpperLeftY" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecodeWindowing.DecodeWindowLimits" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DecodeWindowing.DecodeWindowLimits" static="false" type="com.hsm.barcode.DecodeWindowing.DecodeWindowLimits" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="false" name="LowerRight_X_Max" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="LowerRight_X_Min" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="LowerRight_Y_Max" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="LowerRight_Y_Min" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="UpperLeft_X_Max" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="UpperLeft_X_Min" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="UpperLeft_Y_Max" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="UpperLeft_Y_Min" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecodeWindowing.DecodeWindowMode" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="DECODE_WINDOW_MODE_AIMER" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DECODE_WINDOW_MODE_DISABLED" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DECODE_WINDOW_MODE_FIELD_OF_VIEW" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DECODE_WINDOW_MODE_SUB_IMAGE" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecodeWindowing.DecodeWindowShowWindow" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="DECODE_WINDOW_SHOW_WINDOW_BLACK" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DECODE_WINDOW_SHOW_WINDOW_DISABLED" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DECODE_WINDOW_SHOW_WINDOW_WHITE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Decoder" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="Decoder" static="false" type="com.hsm.barcode.Decoder" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="GetBarcodeData" native="true" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="cancelDecode" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="connectToDecoder" native="false" return="void" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="disableSymbology" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="disconnectFromDecoder" native="false" return="void" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="enableSymbology" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAPIRevision" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAimID" native="false" return="byte" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAimModifier" native="false" return="byte" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getBarcodeByteData" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCodeID" native="false" return="byte" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getControlLogicRevision" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDecThreadsRevision" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDecodeData" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDecodeWindow" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.hsm.barcode.DecodeWindowing.DecodeWindow">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDecodeWindowLimits" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.hsm.barcode.DecodeWindowing.DecodeWindowLimits">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDecodeWindowMode" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDecoderRevision" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getEngineID" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getEngineSerialNumber" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getEngineType" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getErrorMessage" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getExposureSettings" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int[]">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getIQImage" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.hsm.barcode.IQImagingProperties">
+</parameter>
+<parameter name="p1" type="android.graphics.Bitmap">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getImageHeight" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getImageWidth" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getImagerProperties" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.hsm.barcode.ImagerProperties">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLastDecodeTime" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLastImage" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.hsm.barcode.ImageAttributes">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLength" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMaxMessageLength" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getOCRMode" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getOCRTemplates" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getOCRUserTemplate" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPSOCMajorRev" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPSOCMinorRev" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPreviewFrame" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Bitmap">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getScanDriverRevision" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSecondaryDecoderRevision" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getShowDecodeWindow" native="false" return="int" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSingleFrame" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Bitmap">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSymbologyConfig" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.hsm.barcode.SymbologyConfig">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSymbologyConfigDefaults" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.hsm.barcode.SymbologyConfig">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSymbologyMaxRange" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSymbologyMinRange" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDecodeAttemptLimit" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDecodeWindow" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.hsm.barcode.DecodeWindowing.DecodeWindow">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDecodeWindowMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setExposureMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setExposureSettings" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int[]">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setLightsMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOCRMode" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOCRTemplates" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOCRUserTemplate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShowDecodeWindow" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setSymbologyConfig" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.hsm.barcode.SymbologyConfig">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setSymbologyDefaults" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="startScanning" native="false" return="void" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="stopScanning" native="false" return="void" static="false" synchronized="false" visibility="public">
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="waitForDecode" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="waitForDecodeTwo" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="com.hsm.barcode.DecodeResult">
+</parameter>
+<exception name="DecoderException" type="com.hsm.barcode.DecoderException">
+</exception>
+</method>
+<field deprecated="not deprecated" final="false" name="mayContinue" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecoderConfigValues" static="false" visibility="public"/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecoderConfigValues.EngineID" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="IMAGER_4200_ENGINE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="IMAGER_IT4000_ENGINE" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="IMAGER_IT4100_ENGINE" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="IMAGER_IT4300_ENGINE" static="true" transient="false" type="int" type-generic-aware="int" value="7" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="IMAGER_IT5100_ENGINE" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="IMAGER_IT5300_ENGINE" static="true" transient="false" type="int" type-generic-aware="int" value="9" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="IMAGER_N5600_ENGINE" static="true" transient="false" type="int" type-generic-aware="int" value="13" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="IMAGER_N5603_ENGINE" static="true" transient="false" type="int" type-generic-aware="int" value="12" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="LASER_SE1200_ENGINE" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="LASER_SE1223_ENGINE" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="NONE" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="UNKNOWN" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecoderConfigValues.EngineType" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="IMAGER" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="LASER" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="NONE" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="UNKNOWN" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecoderConfigValues.ExposureMode" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="FIXED" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="HHP" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecoderConfigValues.IQImageFormat" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="RAW_BINARY" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RAW_GRAY" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecoderConfigValues.LightsMode" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="AIMER_ONLY" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CONCURRENT" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ILLUM_AIM_OFF" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ILLUM_AIM_ON" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ILLUM_ONLY" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecoderConfigValues.OCRMode" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="OCR_BOTH" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OCR_INVERSE" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OCR_NORMAL_VIDEO" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OCR_OFF" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecoderConfigValues.OCRTemplate" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="ISBN" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="MICRE13B" static="true" transient="false" type="int" type-generic-aware="int" value="16" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="PASSPORT" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="PRICE_FIELD" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="USER" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecoderConfigValues.SymbologyFlags" static="false" visibility="public">
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_128_APPEND" static="true" transient="false" type="int" type-generic-aware="int" value="524288" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_2_DIGIT_ADDENDA" static="true" transient="false" type="int" type-generic-aware="int" value="128" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_5_DIGIT_ADDENDA" static="true" transient="false" type="int" type-generic-aware="int" value="256" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_ADDENDA_REQUIRED" static="true" transient="false" type="int" type-generic-aware="int" value="512" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_ADDENDA_SEPARATOR" static="true" transient="false" type="int" type-generic-aware="int" value="1024" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_AUSTRALIAN_BAR_WIDTH" static="true" transient="false" type="int" type-generic-aware="int" value="65536" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_AUS_POST_ALPHANUMERIC_C_TABLE" static="true" transient="false" type="int" type-generic-aware="int" value="2097152" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_AUS_POST_COMBINATION_N_AND_C_TABLES" static="true" transient="false" type="int" type-generic-aware="int" value="4194304" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_AUS_POST_NUMERIC_N_TABLE" static="true" transient="false" type="int" type-generic-aware="int" value="1048576" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_CHECK_ENABLE" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_CHECK_TRANSMIT" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_CODABAR_CONCATENATE" static="true" transient="false" type="int" type-generic-aware="int" value="536870912" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_COMPOSITE_UPC" static="true" transient="false" type="int" type-generic-aware="int" value="8192" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_ENABLE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_ENABLE_APPEND_MODE" static="true" transient="false" type="int" type-generic-aware="int" value="16" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_ENABLE_FULLASCII" static="true" transient="false" type="int" type-generic-aware="int" value="32" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_EXPANDED_UPCE" static="true" transient="false" type="int" type-generic-aware="int" value="2048" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_NUM_SYS_TRANSMIT" static="true" transient="false" type="int" type-generic-aware="int" value="64" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_POSICODE_LIMITED_1" static="true" transient="false" type="int" type-generic-aware="int" value="134217728" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_POSICODE_LIMITED_2" static="true" transient="false" type="int" type-generic-aware="int" value="268435456" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_RSE_ENABLE" static="true" transient="false" type="int" type-generic-aware="int" value="8388608" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_RSL_ENABLE" static="true" transient="false" type="int" type-generic-aware="int" value="16777216" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_RSS_ENABLE" static="true" transient="false" type="int" type-generic-aware="int" value="33554432" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_RSX_ENABLE_MASK" static="true" transient="false" type="int" type-generic-aware="int" value="58720256" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_START_STOP_XMIT" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_TELEPEN_OLD_STYLE" static="true" transient="false" type="int" type-generic-aware="int" value="67108864" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYMBOLOGY_UPCE1_ENABLE" static="true" transient="false" type="int" type-generic-aware="int" value="4096" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_MASK_ALL" static="true" transient="false" type="int" type-generic-aware="int" value="7" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_MASK_FLAGS" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_MASK_MAX_LEN" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_MASK_MIN_LEN" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecoderConfigValues.SymbologyID" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="SYMBOLOGIES" static="true" transient="false" type="int" type-generic-aware="int" value="52" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_ALL" static="true" transient="false" type="int" type-generic-aware="int" value="100" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_AUSPOST" static="true" transient="false" type="int" type-generic-aware="int" value="25" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_AZTEC" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_BPO" static="true" transient="false" type="int" type-generic-aware="int" value="23" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_CANPOST" static="true" transient="false" type="int" type-generic-aware="int" value="24" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_CHINAPOST" static="true" transient="false" type="int" type-generic-aware="int" value="38" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_CODABAR" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_CODABLOCK" static="true" transient="false" type="int" type-generic-aware="int" value="27" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_CODE11" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_CODE128" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_CODE16K" static="true" transient="false" type="int" type-generic-aware="int" value="41" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_CODE32" static="true" transient="false" type="int" type-generic-aware="int" value="34" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_CODE39" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_CODE49" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_CODE93" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_COMPOSITE" static="true" transient="false" type="int" type-generic-aware="int" value="7" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_COUPONCODE" static="true" transient="false" type="int" type-generic-aware="int" value="43" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_DATAMATRIX" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_DUTCHPOST" static="true" transient="false" type="int" type-generic-aware="int" value="30" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_EAN13" static="true" transient="false" type="int" type-generic-aware="int" value="10" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_EAN8" static="true" transient="false" type="int" type-generic-aware="int" value="9" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_GRIDMATRIX" static="true" transient="false" type="int" type-generic-aware="int" value="49" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_GS1_128" static="true" transient="false" type="int" type-generic-aware="int" value="47" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_HANXIN" static="true" transient="false" type="int" type-generic-aware="int" value="48" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_IATA25" static="true" transient="false" type="int" type-generic-aware="int" value="26" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_IDTAG" static="true" transient="false" type="int" type-generic-aware="int" value="45" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_INT25" static="true" transient="false" type="int" type-generic-aware="int" value="11" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_ISBT" static="true" transient="false" type="int" type-generic-aware="int" value="22" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_JAPOST" static="true" transient="false" type="int" type-generic-aware="int" value="28" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_KOREAPOST" static="true" transient="false" type="int" type-generic-aware="int" value="39" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_LABEL" static="true" transient="false" type="int" type-generic-aware="int" value="46" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_MATRIX25" static="true" transient="false" type="int" type-generic-aware="int" value="36" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_MAXICODE" static="true" transient="false" type="int" type-generic-aware="int" value="12" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_MICROPDF" static="true" transient="false" type="int" type-generic-aware="int" value="13" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_MSI" static="true" transient="false" type="int" type-generic-aware="int" value="31" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_OCR" static="true" transient="false" type="int" type-generic-aware="int" value="14" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_PDF417" static="true" transient="false" type="int" type-generic-aware="int" value="15" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_PLANET" static="true" transient="false" type="int" type-generic-aware="int" value="29" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_PLESSEY" static="true" transient="false" type="int" type-generic-aware="int" value="37" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_POSICODE" static="true" transient="false" type="int" type-generic-aware="int" value="42" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_POSTALS" static="true" transient="false" type="int" type-generic-aware="int" value="50" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_POSTNET" static="true" transient="false" type="int" type-generic-aware="int" value="16" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_QR" static="true" transient="false" type="int" type-generic-aware="int" value="17" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_RSS" static="true" transient="false" type="int" type-generic-aware="int" value="18" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_STRT25" static="true" transient="false" type="int" type-generic-aware="int" value="35" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_TELEPEN" static="true" transient="false" type="int" type-generic-aware="int" value="40" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_TLCODE39" static="true" transient="false" type="int" type-generic-aware="int" value="32" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_TRIOPTIC" static="true" transient="false" type="int" type-generic-aware="int" value="33" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_UPCA" static="true" transient="false" type="int" type-generic-aware="int" value="19" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_UPCE0" static="true" transient="false" type="int" type-generic-aware="int" value="20" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_UPCE1" static="true" transient="false" type="int" type-generic-aware="int" value="21" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_USPS4CB" static="true" transient="false" type="int" type-generic-aware="int" value="44" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SYM_US_POSTALS1" static="true" transient="false" type="int" type-generic-aware="int" value="51" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Exception" extends-generic-aware="java.lang.Exception" final="false" name="DecoderException" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DecoderException" static="false" type="com.hsm.barcode.DecoderException" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getErrorCode" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="DecoderException.ResultID" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_BADREGION" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_BADSMARTIMAGE" static="true" transient="false" type="int" type-generic-aware="int" value="12" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_CANCEL" static="true" transient="false" type="int" type-generic-aware="int" value="17" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_DRIVER" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_ENGINEBUSY" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_EXCEPTION" static="true" transient="false" type="int" type-generic-aware="int" value="18" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_EXMFILE_INVALID" static="true" transient="false" type="int" type-generic-aware="int" value="21" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_LOAD_EXMFILE" static="true" transient="false" type="int" type-generic-aware="int" value="20" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_MEMORY" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_MISSING_EXMSECTION" static="true" transient="false" type="int" type-generic-aware="int" value="22" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_NODATA" static="true" transient="false" type="int" type-generic-aware="int" value="24" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_NODECODE" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_NOIMAGE" static="true" transient="false" type="int" type-generic-aware="int" value="6" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_NORESPONSE" static="true" transient="false" type="int" type-generic-aware="int" value="7" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_NOTCONNECTED" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_NOTRIGGER" static="true" transient="false" type="int" type-generic-aware="int" value="11" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_PARAMETER" static="true" transient="false" type="int" type-generic-aware="int" value="9" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_PROCESSING_EXMSECTION" static="true" transient="false" type="int" type-generic-aware="int" value="23" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_SMARTIMAGETOOLARGE" static="true" transient="false" type="int" type-generic-aware="int" value="13" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_THREAD" static="true" transient="false" type="int" type-generic-aware="int" value="16" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_TOO_MUCH_INTERPOLATION" static="true" transient="false" type="int" type-generic-aware="int" value="14" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_UNSUPPORTED" static="true" transient="false" type="int" type-generic-aware="int" value="10" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_UNSUPPORTED_IQ_BARCODE" static="true" transient="false" type="int" type-generic-aware="int" value="19" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_ERR_WRONGRESULTSTRUCT" static="true" transient="false" type="int" type-generic-aware="int" value="15" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_INITIALIZE" static="true" transient="false" type="int" type-generic-aware="int" value="-1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="RESULT_SUCCESS" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="ExposureValues" static="false" visibility="public"/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="ExposureValues.ConformImage" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="CONFORM_IMAGE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DO_NOT_COFORM_IMAGE" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="ExposureValues.ExposureMethod" static="true" visibility="public">
+<field deprecated="not deprecated" final="true" name="CENTER_ONLY" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CENTER_WEIGHTED" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="UNIFORM" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ExposureValues.ExposureSettings" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ExposureValues.ExposureSettings" static="false" type="com.hsm.barcode.ExposureValues.ExposureSettings" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="DEC_ES_CONFORM_IMAGE" static="true" transient="false" type="int" type-generic-aware="int" value="9" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_CONFORM_TRIES" static="true" transient="false" type="int" type-generic-aware="int" value="10" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_EXPOSURE_METHOD" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_FIXED_EXP" static="true" transient="false" type="int" type-generic-aware="int" value="14" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_FIXED_FRAME_RATE" static="true" transient="false" type="int" type-generic-aware="int" value="16" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_FIXED_GAIN" static="true" transient="false" type="int" type-generic-aware="int" value="15" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_FRAME_RATE" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_MAX_EXP" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_MAX_GAIN" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_SPECULAR_EXCLUSION" static="true" transient="false" type="int" type-generic-aware="int" value="11" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_SPECULAR_LIMIT" static="true" transient="false" type="int" type-generic-aware="int" value="13" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_SPECULAR_SAT" static="true" transient="false" type="int" type-generic-aware="int" value="12" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_TARGET_ACCEPT_GAP" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_TARGET_PERCENTILE" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_ES_TARGET_VALUE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ExposureValues.ExposureSettingsMinMax" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ExposureValues.ExposureSettingsMinMax" static="false" type="com.hsm.barcode.ExposureValues.ExposureSettingsMinMax" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_CONFORM_IMAGE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_CONFORM_TRIES" static="true" transient="false" type="int" type-generic-aware="int" value="8" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_EXPOSURE_METHOD" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_FIXED_EXP" static="true" transient="false" type="int" type-generic-aware="int" value="7874" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_FIXED_FRAME_RATE" static="true" transient="false" type="int" type-generic-aware="int" value="30" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_FIXED_GAIN" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_FRAME_RATE" static="true" transient="false" type="int" type-generic-aware="int" value="30" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_MAX_EXP" static="true" transient="false" type="int" type-generic-aware="int" value="7874" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_MAX_GAIN" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_SPECULAR_EXCLUSION" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_SPECULAR_LIMIT" static="true" transient="false" type="int" type-generic-aware="int" value="5" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_SPECULAR_SAT" static="true" transient="false" type="int" type-generic-aware="int" value="255" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_TARGET_ACCEPT_GAP" static="true" transient="false" type="int" type-generic-aware="int" value="50" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_TARGET_PERCENTILE" static="true" transient="false" type="int" type-generic-aware="int" value="99" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MAX_ES_TARGET_VALUE" static="true" transient="false" type="int" type-generic-aware="int" value="255" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_CONFORM_IMAGE" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_CONFORM_TRIES" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_EXPOSURE_METHOD" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_FIXED_EXP" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_FIXED_FRAME_RATE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_FIXED_GAIN" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_FRAME_RATE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_MAX_EXP" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_MAX_GAIN" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_SPECULAR_EXCLUSION" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_SPECULAR_LIMIT" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_SPECULAR_SAT" static="true" transient="false" type="int" type-generic-aware="int" value="200" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_TARGET_ACCEPT_GAP" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_TARGET_PERCENTILE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEC_MIN_ES_TARGET_VALUE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="ExposureValues.SpecularExclusion" static="false" visibility="public">
+<field deprecated="not deprecated" final="true" name="AGGRESSIVE" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="MINIMAL" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="MODERATE" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="OFF" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SPECIAL" static="true" transient="false" type="int" type-generic-aware="int" value="4" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="IQImagingProperties" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="IQImagingProperties" static="false" type="com.hsm.barcode.IQImagingProperties" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="false" name="AspectRatio" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="Format" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="Height" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="Reserved" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="Resolution" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="Width" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="X_Offset" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="Y_Offset" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ImageAttributes" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ImageAttributes" static="false" type="com.hsm.barcode.ImageAttributes" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="false" name="ExposureValue" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="GainValue" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="IlluminationClipValue" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="IlluminationMaxValue" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="IlluminationValue" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="ImageSize" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ImagerProperties" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ImagerProperties" static="false" type="com.hsm.barcode.ImagerProperties" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="false" name="AimerColor" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="AimerType" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="AimerXoffset" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="AimerYoffset" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="BitsPerPixel" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="ColorFormat" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="Columns" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="EngineID" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="EnginePartNum" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="EngineSerialNum" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="FirmwareEngineID" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="IllumColor" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="NumBuffers" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="Optics" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="PSOCMajorRev" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="PSOCMinorRev" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="Rotation" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="Rows" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="Size" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="YDepth" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SymbologyConfig" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SymbologyConfig" static="false" type="com.hsm.barcode.SymbologyConfig" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</constructor>
+<field deprecated="not deprecated" final="false" name="Flags" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="Mask" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="MaxLength" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="MinLength" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="symID" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+</class>
+</package>
+</api>
