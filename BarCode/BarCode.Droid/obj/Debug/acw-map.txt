@@ -546,6 +546,10 @@ Xamarin.Forms.Platform.Android.AppCompat.FormsViewPager, Xamarin.Forms.Platform.
 Xamarin.Forms.Platform.Android.AppCompat.FormsViewPager, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5270abb39e60627f0f200893b490a1ade.FormsViewPager
 Xamarin.Forms.Platform.Android.AppCompat.FormsViewPager;md5270abb39e60627f0f200893b490a1ade.FormsViewPager
 xamarin.forms.platform.android.appcompat.FormsViewPager;md5270abb39e60627f0f200893b490a1ade.FormsViewPager
+Zumero.DataGridRenderer, Zumero.DataGrid.Android;md50da5bd272db11b2805f0d7e72fb53289.DataGridRenderer
+Zumero.DataGridRenderer, Zumero.DataGrid.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;md50da5bd272db11b2805f0d7e72fb53289.DataGridRenderer
+Zumero.DataGridRenderer;md50da5bd272db11b2805f0d7e72fb53289.DataGridRenderer
+zumero.DataGridRenderer;md50da5bd272db11b2805f0d7e72fb53289.DataGridRenderer
 ZXing.Net.Mobile.Forms.Android.ZXingScannerViewRenderer, ZXing.Net.Mobile.Forms.Android;md56e3febfe821e820f721c96a513703049.ZXingScannerViewRenderer
 ZXing.Net.Mobile.Forms.Android.ZXingScannerViewRenderer, ZXing.Net.Mobile.Forms.Android, Version=2.0.4.46, Culture=neutral, PublicKeyToken=null;md56e3febfe821e820f721c96a513703049.ZXingScannerViewRenderer
 ZXing.Net.Mobile.Forms.Android.ZXingScannerViewRenderer;md56e3febfe821e820f721c96a513703049.ZXingScannerViewRenderer

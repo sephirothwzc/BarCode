@@ -155,6 +155,14 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="Zumero.DataGrid, Version=1.0.5828.18230, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ZumeroDataGrid.1.1.3\lib\Xamarin.iOS10\Zumero.DataGrid.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Zumero.DataGrid.Unified, Version=1.0.5828.18251, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ZumeroDataGrid.1.1.3\lib\Xamarin.iOS10\Zumero.DataGrid.Unified.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="ZXing.Net.Mobile.Core, Version=2.0.4.46, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\ZXing.Net.Mobile.2.0.4.46\lib\Xamarin.iOS10\ZXing.Net.Mobile.Core.dll</HintPath>
       <Private>True</Private>

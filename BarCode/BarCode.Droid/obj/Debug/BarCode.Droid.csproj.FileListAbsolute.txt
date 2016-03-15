@@ -56,7 +56,6 @@ C:\Users\Administrator\documents\visual studio 2015\Projects\BarCode\BarCode\Bar
 C:\Users\Administrator\documents\visual studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BarCode.dll.mdb
 C:\Users\Administrator\documents\visual studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\BarCode.Droid.dll.mdb
 C:\Users\Administrator\documents\visual studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BarCode.Droid.dll.mdb
-D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\BarCode.Droid.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BarCode.Droid.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BarCode.Droid.pdb
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BarCode.Droid.apk
@@ -76,6 +75,8 @@ D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Xamarin.Forms.Platform.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Zumero.DataGrid.Android.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Zumero.DataGrid.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\ZXing.Net.Mobile.Core.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\ZXing.Net.Mobile.Forms.Android.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\ZXing.Net.Mobile.Forms.dll
@@ -92,6 +93,7 @@ D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Xamarin.Forms.Core.xml
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\en-US\BarCode.resources.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\BarCode.Droid.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\BarCode.Droid.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\BarCode.Droid.pdb
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\android\bin\BarCode.Droid.apk

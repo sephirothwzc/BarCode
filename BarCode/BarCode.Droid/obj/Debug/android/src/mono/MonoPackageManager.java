@@ -95,6 +95,8 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"Zumero.DataGrid.Android.dll",
+		"Zumero.DataGrid.dll",
 		"ZXing.Net.Mobile.Core.dll",
 		"ZXing.Net.Mobile.Forms.Android.dll",
 		"ZXing.Net.Mobile.Forms.dll",

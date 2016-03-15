@@ -5,6 +5,7 @@
     <ResolvedResourceDirectory>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\ImageCircle.Forms.Plugin.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\Zumero.DataGrid.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile.Forms.Android\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\ZXingNetMobile\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
@@ -12,6 +13,7 @@
     <ResolvedAssetDirectory>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\ImageCircle.Forms.Plugin.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\Zumero.DataGrid.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile.Forms.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\ZXingNetMobile\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
@@ -20,6 +22,7 @@
     <ResolvedResourceDirectoryStamp>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\ImageCircle.Forms.Plugin.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\Zumero.DataGrid.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\ZXing.Net.Mobile.Forms.Android.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\__library_projects__\ZXingNetMobile.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="clr-namespace:Zumero;assembly=Zumero.DataGrid"
+             x:Class="BarCode.Pages.GridDemoPage"
+             >
+  <ContentPage.Content>
+    <StackLayout Padding="25, 25,25, 0">
+      <d:DataGrid x:Name="datagrid" Rows="{Binding DataRows}" BackgroundColor="Black" RowHeight="40" HeaderHeight="40" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <d:DataGrid.FrozenColumn>
+          <d:Column Width="40">
+            <d:Column.HeaderView>
+              <Label Text="姓名" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+            </d:Column.HeaderView>
+            <d:Column.Template>
+              <DataTemplate>
+                <Label Text="{Binding SampleName}" BackgroundColor="White" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+              </DataTemplate>
+            </d:Column.Template>
+          </d:Column>
+        </d:DataGrid.FrozenColumn>
+        <d:DataGrid.Columns>
+
+          <d:Column Width="150">
+            <d:Column.HeaderView>
+              <Label Text="文本" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+            </d:Column.HeaderView>
+            <d:Column.Template>
+              <DataTemplate>
+                <Label Text="{Binding SampleDescription}" BackgroundColor="White" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+              </DataTemplate>
+            </d:Column.Template>
+          </d:Column>
+          <d:Column Width="150">
+            <d:Column.HeaderView>
+              <Label Text="文本" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+            </d:Column.HeaderView>
+            <d:Column.Template>
+              <DataTemplate>
+                <Label Text="{Binding SampleDescription}" BackgroundColor="White" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+              </DataTemplate>
+            </d:Column.Template>
+          </d:Column>
+          <d:Column Width="150">
+            <d:Column.HeaderView>
+              <Label Text="文本" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+            </d:Column.HeaderView>
+            <d:Column.Template>
+              <DataTemplate>
+                <Label Text="{Binding SampleDescription}" BackgroundColor="White" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+              </DataTemplate>
+            </d:Column.Template>
+          </d:Column>
+          <d:Column Width="150">
+            <d:Column.HeaderView>
+              <Label Text="文本" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+            </d:Column.HeaderView>
+            <d:Column.Template>
+              <DataTemplate>
+                <Label Text="{Binding SampleDescription}" BackgroundColor="White" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+              </DataTemplate>
+            </d:Column.Template>
+          </d:Column>
+          <d:Column Width="150">
+            <d:Column.HeaderView>
+              <Label Text="文本" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+            </d:Column.HeaderView>
+            <d:Column.Template>
+              <DataTemplate>
+                <Label Text="{Binding SampleDescription}" BackgroundColor="White" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+              </DataTemplate>
+            </d:Column.Template>
+          </d:Column>
+          <d:Column Width="150">
+            <d:Column.HeaderView>
+              <Label Text="文本" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+            </d:Column.HeaderView>
+            <d:Column.Template>
+              <DataTemplate>
+                <Label Text="{Binding SampleDescription}" BackgroundColor="White" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+              </DataTemplate>
+            </d:Column.Template>
+          </d:Column>
+
+          <!--<d:Column Width="70">
+        <d:Column.Template>
+          <DataTemplate>
+            <Button Text="C#" Clicked="OnCodeButtonClicked" BorderWidth="0" BackgroundColor="Green" TextColor="White"></Button>
+          </DataTemplate>
+        </d:Column.Template>
+      </d:Column>
+
+      <d:Column Width="70">
+        <d:Column.Template>
+          <DataTemplate>
+            <Button Text="XAML" Clicked="OnXamlButtonClicked" BorderWidth="0" BackgroundColor="Green" TextColor="White"></Button>
+          </DataTemplate>
+        </d:Column.Template>
+      </d:Column>-->
+        </d:DataGrid.Columns>
+      </d:DataGrid>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

@@ -16,7 +16,7 @@ namespace BarCode.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-
+            Zumero.DataGridComponent.Init();
 
             CommCLR.webclient = new WebClient_clr();
             CommCLR.Iscan = new BCRManager_clr(this);
