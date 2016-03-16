@@ -16,18 +16,33 @@ namespace BarCode.Droid
     {
         public WebClient_clr()
         {
-            
+
         }
 
-        public T WebRequest<T>(Uri uri, IDictionary<string, string> datas = null, string method = "POST", string charset = "UTF8")
+        /// <summary>
+        /// 根据参数集合拼凑json提交字符串
+        /// </summary>
+        /// <param name="datas"></param>
+        /// <returns></returns>
+        private string CreateDataJson(IDictionary<string, object> datas = null)
         {
-            string data = string.Empty;
-            if (datas != null)
-            {
-                var namevalues = datas.ToList().Select(d => string.Format(@"{0}:'{1}'", d.Key, d.Value)).ToArray();
-                data = "{" + string.Join(",", namevalues) + "}";
-            }
-            
+            if (datas == null)
+                return string.Empty;
+
+            var namevalues = datas.Select(d =>
+                string.Format(@"""{0}"":{1}"
+                , d.Key
+                , d.Value.GetType().IsValueType
+                    ? string.Format(@"""{0}""", (d.Value ?? "").ToString())
+                    : this.ObjectToJson(d.Value))
+                ).ToArray();
+            return string.Format("{{{0}}}", string.Join(",", namevalues));
+        }
+
+        public T WebRequest<T>(Uri uri, IDictionary<string, object> datas = null, string method = "POST", string charset = "UTF8")
+        {
+            string data = this.CreateDataJson(datas);
+
             using (WebClient webClient = new WebClient())
             {
                 //webClient.Encoding = (Encoding)Enum.Parse(typeof(Encoding), charset);
@@ -52,14 +67,10 @@ namespace BarCode.Droid
         /// <param name="method"></param>
         /// <param name="charset"></param>
         /// <returns></returns>
-        public async System.Threading.Tasks.Task<T> WebRequestAsync<T>(Uri uri, IDictionary<string, string> datas = null, string method = "POST", string charset = "UTF8")
+        public async System.Threading.Tasks.Task<T> WebRequestAsync<T>(Uri uri, IDictionary<string, object> datas = null, string method = "POST", string charset = "UTF8")
         {
-            string data = string.Empty;
-            if (datas != null)
-            {
-                var namevalues = datas.ToList().Select(d => string.Format(@"{0}:'{1}'", d.Key, d.Value)).ToArray();
-                data = "{" + string.Join(",", namevalues) + "}";
-            }
+            string data = this.CreateDataJson(datas);
+
             using (WebClient webClient = new WebClient())
             {
                 //webClient.Encoding = (Encoding)Enum.Parse(typeof(Encoding), charset);
@@ -77,14 +88,10 @@ namespace BarCode.Droid
         }
 
 
-        public void WebRequestCompleted<T>(Uri uri, IDictionary<string, string> datas = null, string method = "POST", string charset = "UTF8", Action<T> RunT = null)
+        public void WebRequestCompleted<T>(Uri uri, IDictionary<string, object> datas = null, string method = "POST", string charset = "UTF8", Action<T> RunT = null)
         {
-            string data = string.Empty;
-            if (datas != null)
-            {
-                var namevalues = datas.ToList().Select(d => string.Format(@"{0}:'{1}'", d.Key, d.Value)).ToArray();
-                data = "{" + string.Join(",", namevalues) + "}";
-            }
+            string data = this.CreateDataJson(datas);
+
             using (WebClient webClient = new WebClient())
             {
                 //webClient.Encoding = (Encoding)Enum.Parse(typeof(Encoding), charset);
@@ -102,7 +109,7 @@ namespace BarCode.Droid
                 }
                 else
                 {
-                    webClient.DownloadStringCompleted+= (sender, e) =>
+                    webClient.DownloadStringCompleted += (sender, e) =>
                     {
                         var dwstring = e.Result;
                         if (RunT != null)
@@ -113,13 +120,14 @@ namespace BarCode.Droid
             }
         }
 
+
         #region 字符串对象序列化--ObjectConvertJson
         /// <summary>
         /// 字符串对象序列化
         /// </summary>
         /// <param name="jsonstr"></param>
         /// <returns></returns>
-        public static T ObjectConvertJson<T>(string jsonstr)
+        public T ObjectConvertJson<T>(string jsonstr)
         {
             try
             {

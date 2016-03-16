@@ -51,6 +51,15 @@ namespace BarCode.Pages
             string turl = url + "/GetServiceDateTime";
             string sss = CommCLR.webclient.WebRequest<string>(new Uri(turl), method: "GET");
 
+            string sapurl = url + "/GetVendorTodayBatch";
+            IDictionary<string, object> datas = new Dictionary<string, object>();
+            datas.Add("plant", "0000100000");
+            datas.Add("vendor", new UserDto { Location = "2222" });
+            datas.Add("material", "0120010003");
+
+            var strss = CommCLR.webclient.WebRequest<string>(new Uri(sapurl), datas);
+
+
         }
 
         async void CancelButtonTapped(object obj)
@@ -90,7 +99,7 @@ namespace BarCode.Pages
                 return;
             }
             string turl = url + "/CheckUser";
-            IDictionary<string, string> cudata = new Dictionary<string, string>();
+            IDictionary<string, object> cudata = new Dictionary<string, object>();
 
             cudata.Add("plant", facNum);
             cudata.Add("userID", userName);

@@ -21,7 +21,7 @@ namespace BarCode.Pages
         /// </summary>
         protected override void OnAppearing()
         {
-            base.OnAppearing();
+            base.OnAppearing(); 
             datagrid.Rows = new ObservableCollection<object>
             {
                 new SampleObject

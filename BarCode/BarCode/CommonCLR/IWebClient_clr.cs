@@ -8,12 +8,14 @@ namespace BarCode
     /// </summary>
     public interface IWebClient_clr
     {
-        T WebRequest<T>(Uri uri, IDictionary<string, string> datas = null, string method = "POST", string charset = "UTF8");
+        T WebRequest<T>(Uri uri, IDictionary<string, object> datas = null, string method = "POST", string charset = "UTF8");
 
-        System.Threading.Tasks.Task<T> WebRequestAsync<T>(Uri uri, IDictionary<string, string> datas = null, string method = "POST", string charset = "UTF8");
+        System.Threading.Tasks.Task<T> WebRequestAsync<T>(Uri uri, IDictionary<string, object> datas = null, string method = "POST", string charset = "UTF8");
 
-        void WebRequestCompleted<T>(Uri uri, IDictionary<string, string> datas = null, string method = "POST", string charset = "UTF8", Action<T> RunT = null);
+        void WebRequestCompleted<T>(Uri uri, IDictionary<string, object> datas = null, string method = "POST", string charset = "UTF8", Action<T> RunT = null);
 
         string ObjectToJson(object obj);
+
+        T ObjectConvertJson<T>(string jsonstr);
     }
 }
