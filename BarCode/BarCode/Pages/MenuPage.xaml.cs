@@ -27,12 +27,13 @@ namespace BarCode.Pages
                 Icon = "icon.png"
             };
 
-            ListViewMenu.ItemsSource = menuItems = new List<HomeMenuItem>
-                {
-                    new HomeMenuItem { Title = "PO收货", MenuType = MenuType.Receipt, Icon = "products.png" },
-                    new HomeMenuItem { Title = "关于", MenuType = MenuType.About, Icon = "about.png" },
+			ListViewMenu.ItemsSource = menuItems = new List<HomeMenuItem>
+			{
+					new HomeMenuItem { Title = "PO收货", MenuType = MenuType.Receipt, Icon = "products.png" },
+					new HomeMenuItem { Title = "列表demo", MenuType = MenuType.GridDemo, Icon = "products.png" },
+					new HomeMenuItem { Title = "关于", MenuType = MenuType.About, Icon = "about.png" },
 
-                };
+			};
 
             ListViewMenu.SelectedItem = menuItems[0];
 

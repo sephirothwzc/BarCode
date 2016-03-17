@@ -2,10 +2,6 @@ BarCode.Droid.MainActivity, BarCode.Droid;md5ce052bb043cc9648ddd3ca4cf4bbfd4e.Ma
 BarCode.Droid.MainActivity, BarCode.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ce052bb043cc9648ddd3ca4cf4bbfd4e.MainActivity
 BarCode.Droid.MainActivity;md5ce052bb043cc9648ddd3ca4cf4bbfd4e.MainActivity
 barcode.droid.MainActivity;md5ce052bb043cc9648ddd3ca4cf4bbfd4e.MainActivity
-Android.Hardware.Bcreader.IBCRListenerImplementor, BCRManager_xamarin;mono.android.hardware.bcreader.BCRListenerImplementor
-Android.Hardware.Bcreader.IBCRListenerImplementor, BCRManager_xamarin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.hardware.bcreader.BCRListenerImplementor
-Android.Hardware.Bcreader.IBCRListenerImplementor;mono.android.hardware.bcreader.BCRListenerImplementor
-mono.android.hardware.bcreader.BCRListenerImplementor;mono.android.hardware.bcreader.BCRListenerImplementor
 ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer, ImageCircle.Forms.Plugin.Android;md5e038db2f670d5c4a496bf3606cfc5e72.ImageCircleRenderer
 ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer, ImageCircle.Forms.Plugin.Android, Version=1.1.6.0, Culture=neutral, PublicKeyToken=null;md5e038db2f670d5c4a496bf3606cfc5e72.ImageCircleRenderer
 ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer;md5e038db2f670d5c4a496bf3606cfc5e72.ImageCircleRenderer
@@ -578,3 +574,7 @@ ZXing.Mobile.ZXingSurfaceView, ZXingNetMobile;md59d50db212e0bbf7132bbad8b3d837d5
 ZXing.Mobile.ZXingSurfaceView, ZXingNetMobile, Version=2.0.4.46, Culture=neutral, PublicKeyToken=null;md59d50db212e0bbf7132bbad8b3d837d51.ZXingSurfaceView
 ZXing.Mobile.ZXingSurfaceView;md59d50db212e0bbf7132bbad8b3d837d51.ZXingSurfaceView
 zxing.mobile.ZXingSurfaceView;md59d50db212e0bbf7132bbad8b3d837d51.ZXingSurfaceView
+Android.Hardware.Bcreader.IBCRListenerImplementor, BCRManager_xamarin;mono.android.hardware.bcreader.BCRListenerImplementor
+Android.Hardware.Bcreader.IBCRListenerImplementor, BCRManager_xamarin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.hardware.bcreader.BCRListenerImplementor
+Android.Hardware.Bcreader.IBCRListenerImplementor;mono.android.hardware.bcreader.BCRListenerImplementor
+mono.android.hardware.bcreader.BCRListenerImplementor;mono.android.hardware.bcreader.BCRListenerImplementor

@@ -50,6 +50,15 @@ namespace BarCode
                         SetDetailIfNull(page);
                         Pages.Add(id, page);
                         break;
+					case MenuType.GridDemo:
+						page = new NeuNavigationPage(new GridDemoPage
+						{
+							Title = TextResources.Receipt_Title,
+							Icon = new FileImageSource { File = "products.png" }
+						});
+						SetDetailIfNull(page);
+						Pages.Add(id, page);
+					break;
                     case MenuType.About:
                         page = new NeuNavigationPage(new AboutPage
                         {
@@ -114,6 +123,7 @@ namespace BarCode
     public enum MenuType
     {
         Receipt,
+		GridDemo,
         About
     }
 

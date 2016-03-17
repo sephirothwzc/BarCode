@@ -48,8 +48,10 @@ namespace BarCode.Pages
                 }
             };
 
+			/*
             string turl = url + "/GetServiceDateTime";
             string sss = CommCLR.webclient.WebRequest<string>(new Uri(turl), method: "GET");
+
 
             string sapurl = url + "/GetVendorTodayBatch";
             IDictionary<string, object> datas = new Dictionary<string, object>();
@@ -58,6 +60,7 @@ namespace BarCode.Pages
             datas.Add("material", "0120010003");
 
             var strss = CommCLR.webclient.WebRequest<string>(new Uri(sapurl), datas);
+			*/
 
 
         }

@@ -1,0 +1,27 @@
+﻿<Properties StartupItem="BarCode/BarCode.iOS/BarCode.iOS.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BarCode/BarCode.iOS/Localization/Localize.cs">
+    <Files>
+      <File FileName="BarCode/BarCode.iOS/Localization/Localize.cs" Line="10" Column="22" />
+      <File FileName="BarCode/BarCode.iOS/Info.plist" />
+      <File FileName="BarCode/BarCode.iOS/Entitlements.plist" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BarCode" expanded="True">
+            <Node name="BarCode.iOS" expanded="True" selected="True">
+              <Node name="CommonCLR" expanded="True" />
+              <Node name="Localization" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

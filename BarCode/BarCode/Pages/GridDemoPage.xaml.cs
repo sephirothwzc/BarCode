@@ -11,23 +11,58 @@ namespace BarCode.Pages
 {
     public partial class GridDemoPage : ContentPage
     {
-        public GridDemoPage()
+
+		public GridDemoPage()
         {
             InitializeComponent();
         }
+
+		/// <summary>
+		/// 添加一行
+		/// </summary>
+		/// <returns>The clicked.</returns>
+		/// <param name="sender">Sender.</param>
+		/// <param name="e">E.</param>
+		void Handle_Clicked(object sender, System.EventArgs e)
+		{
+			this.datagrid.Rows.Add(new SampleObject
+			{
+				SampleName = string.Format("我是第{0}行",this.datagrid.Rows.Count),
+				SampleDescription = "XXXXXXXXX",
+				OpenCode = () => {return new BarCode.Pages.Receipt.PoAPage();}
+
+			});
+		}
+
+		/// <summary>
+		/// 姓名点击弹出新窗体
+		/// </summary>
+		/// <returns>The code button clicked.</returns>
+		/// <param name="sender">Sender.</param>
+		/// <param name="args">Arguments.</param>
+		void OnCodeButtonClicked(object sender, EventArgs args)
+		{
+
+			Button button = (Button)sender;
+			var tpage = ((SampleObject)button.BindingContext).OpenCode();
+			tpage.Title = ((SampleObject)button.BindingContext).SampleName;
+			Navigation.PushAsync(tpage);
+
+		}
 
         /// <summary>
         /// 加载事件
         /// </summary>
         protected override void OnAppearing()
         {
-            base.OnAppearing(); 
-            datagrid.Rows = new ObservableCollection<object>
-            {
-                new SampleObject
-                {
-                    SampleName = "张三",
-                    SampleDescription = "Shows images, dates. Includes headers and a frozen column.",
+            base.OnAppearing();
+			datagrid.Rows = new ObservableCollection<object>
+			{
+				new SampleObject
+				{
+					SampleName = "张三",
+					SampleDescription = "Shows images, dates. Includes headers and a frozen column.",
+					OpenCode = () => {return new BarCode.Pages.Receipt.PoAPage();}
                     //OpenCode = () => { return new PresidentsCode(); },
                     //OpenXaml = () => { return new PresidentsXaml(); },
                 },
@@ -35,6 +70,7 @@ namespace BarCode.Pages
                 {
                     SampleName = "李四",
                     SampleDescription = "Lots of rows. Unicode text.",
+					OpenCode = () => {return new BarCode.Pages.Receipt.PoAPage();}
                     //OpenCode = () => { return new CountriesCode(); },
                     //OpenXaml = () => { return new CountriesXaml(); },
                 },
@@ -42,6 +78,7 @@ namespace BarCode.Pages
                 {
                     SampleName = "王五",
                     SampleDescription = "Dynamic generation of one million 'virtual' rows.",
+					OpenCode = () => {return new BarCode.Pages.Receipt.PoAPage();}
                     //OpenCode = () => { return new DynamicCode(); },
                     //OpenXaml = () => { return new DynamicXaml(); },
                 },
@@ -49,27 +86,31 @@ namespace BarCode.Pages
                 {
                     SampleName = "赵六",
                     SampleDescription = "Includes slider controls with two way binding.",
+					OpenCode = () => {return new BarCode.Pages.Receipt.PoAPage();}
                     //OpenCode = () => { return new XSquaredCode(); },
                     //OpenXaml = () => { return new XSquaredXaml(); },
                 },
             };
+			/*
             for (int i = 0; i < 100; i++)
             {
                 datagrid.Rows.Add(new SampleObject
                 {
                     SampleName = "赵六",
                     SampleDescription = "Includes slider controls with two way binding.",
+					OpenCode = () => {return new BarCode.Pages.Receipt.PoAPage();}
                     //OpenCode = () => { return new XSquaredCode(); },
                     //OpenXaml = () => { return new XSquaredXaml(); },
                 });
             }
+            */
         }
         class SampleObject
         {
             public string SampleName { get; set; }
             public string SampleDescription { get; set; }
 
-            //public Func<Page> OpenCode { get; set; }
+            public Func<Page> OpenCode { get; set; }
             //public Func<Page> OpenXaml { get; set; }
 
         }

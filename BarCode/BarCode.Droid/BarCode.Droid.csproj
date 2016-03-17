@@ -48,9 +48,6 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BCRManager_xamarin">
-      <HintPath>..\..\..\BCRManager_xamarin.dll</HintPath>
-    </Reference>
     <Reference Include="FormsViewGroup, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.0.0.6490\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
       <Private>True</Private>
@@ -137,6 +134,9 @@
       <HintPath>..\..\packages\ZXing.Net.Mobile.2.0.4.46\lib\MonoAndroid403\ZXingNetMobile.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="BCRManager_xamarin">
+      <HintPath>..\..\..\..\..\Documents\XamarinProject\BCRManager_xamarin.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommonCLR\BCRManager_clr.cs" />
@@ -174,13 +174,8 @@
   <ItemGroup>
     <ProjectReference Include="..\BarCode\BarCode.csproj">
       <Name>BarCode</Name>
+      <Project>{034E664E-297C-4456-9779-99C2EC5C89CA}</Project>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <XamarinComponentReference Include="ZumeroDataGrid">
-      <Visible>False</Visible>
-      <Version>1.1.2</Version>
-    </XamarinComponentReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.0.0.6490\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.0.0.6490\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
