@@ -4,11 +4,15 @@ using Android.App;
 using Android.Content.PM;
 using Android.Hardware.Bcreader;
 using Android.OS;
+using Android.Content;
 
 namespace BarCode.Droid
 {
     //[Activity(Label = "BarCode", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    [Activity(Label = "北京东软慧聚仓库扫描系统", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "北京东软慧聚仓库扫描系统"
+	          , Icon = "@drawable/icon"
+	          , MainLauncher = true
+	          , ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity, Android.Hardware.Bcreader.IBCRListener
     {
         protected override void OnCreate(Bundle bundle)
@@ -20,6 +24,16 @@ namespace BarCode.Droid
 
             CommCLR.webclient = new WebClient_clr();
             CommCLR.Iscan = new BCRManager_clr(this);
+			//加载版本号 android版本
+			/*
+			Version appVersion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+			var app_version = string.Format("{0}.{1}.{2}.{3}", appVersion.Major, appVersion.Minor, appVersion.Build, appVersion.Revision);
+			*/
+			//加载当前设定版本
+			Context context = this.ApplicationContext;
+			var version = context.PackageManager.GetPackageInfo(context.PackageName, 0).VersionName;
+			//end
+
             LoadApplication(new App());
 
             mBCRManager = BCRManager.Instance;

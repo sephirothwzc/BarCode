@@ -45,7 +45,6 @@ namespace BarCode
             {
                 TextResources.Culture = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
             }
-
             //MainPage = new Login();
 			MainPage = new MDPage();
             appli = this;

@@ -1,27 +1,15 @@
-﻿<Properties StartupItem="BarCode/BarCode.iOS/BarCode.iOS.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BarCode/BarCode.iOS/Localization/Localize.cs">
+﻿<Properties StartupItem="BarCode/BarCode.Droid/BarCode.Droid.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BarCode/BarCode.Droid/MainActivity.cs">
     <Files>
-      <File FileName="BarCode/BarCode.iOS/Localization/Localize.cs" Line="10" Column="22" />
-      <File FileName="BarCode/BarCode.iOS/Info.plist" />
-      <File FileName="BarCode/BarCode.iOS/Entitlements.plist" />
+      <File FileName="BarCode/BarCode.Droid/MainActivity.cs" Line="33" Column="46" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="BarCode" expanded="True">
-            <Node name="BarCode.iOS" expanded="True" selected="True">
-              <Node name="CommonCLR" expanded="True" />
-              <Node name="Localization" expanded="True" />
-              <Node name="Properties" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/wuzhanchao/Projects/sephirothwzc/BarCode.git/BarCode/BarCode.Droid/MainActivity.cs" line="31" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BarCode.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.2" />
 </Properties>
