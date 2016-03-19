@@ -10,11 +10,19 @@ namespace BarCode.Pages
 {
     public partial class Login : ContentPage
     {
-        public string url = @"http://219.143.238.188:8710/Web/Module/Barcode/PDAService.asmx";
+        public string url = string.Empty;// Plugin.Settings.CrossSettings.Current.GetValueOrDefault<string>("pdaservices");
 
         public Login()
         {
             InitializeComponent();
+
+            //系统设置读取与设置
+            this.url = Helpers.Settings.Pdaservices;
+
+            Helpers.Settings.Pdaservices = "111111111111111";
+
+            var sst = Helpers.Settings.Pdaservices;
+            //end
 
             this.SignInButton.GestureRecognizers.Add(
                 new TapGestureRecognizer()

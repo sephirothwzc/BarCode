@@ -66,6 +66,8 @@ D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\ImageCircle.Forms.Plugin.Android.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Newtonsoft.Json.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Plugin.Settings.Abstractions.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Plugin.Settings.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
@@ -90,6 +92,8 @@ D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\ImageCircle.Forms.Plugin.Android.xml
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\ImageCircle.Forms.Plugin.Android.dll.mdb
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Newtonsoft.Json.xml
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Plugin.Settings.xml
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Plugin.Settings.Abstractions.xml
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Xamarin.Forms.Core.xml
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\en-US\BarCode.resources.dll

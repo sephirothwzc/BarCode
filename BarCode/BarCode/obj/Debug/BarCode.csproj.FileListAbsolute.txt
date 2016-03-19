@@ -31,6 +31,8 @@ D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\BarCo
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\en-US\BarCode.resources.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\packagenuget.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\Plugin.Settings.Abstractions.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\Plugin.Settings.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\Xamarin.Forms.Core.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\Xamarin.Forms.Platform.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\Xamarin.Forms.Xaml.dll
@@ -42,6 +44,8 @@ D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\ZXing
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.pdb
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.xml
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\packagenuget.pdb
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\Plugin.Settings.xml
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\Plugin.Settings.Abstractions.xml
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\Xamarin.Forms.Core.xml
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\Xamarin.Forms.Xaml.xml
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.Pages.Login.xaml.g.cs
@@ -54,5 +58,6 @@ D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCo
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\en-US\BarCode.resources.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.pdb
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.dll.mdb
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\BarCode.dll.mdb
