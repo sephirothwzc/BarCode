@@ -45,8 +45,8 @@ namespace BarCode
             {
                 TextResources.Culture = DependencyService.Get<ILocalize>().GetCurrentCultureInfo();
             }
-            MainPage = new Login();
-			//MainPage = new MDPage();
+            //MainPage = new Login();
+            MainPage = new DevExpressDataGrid();
             appli = this;
 
         }

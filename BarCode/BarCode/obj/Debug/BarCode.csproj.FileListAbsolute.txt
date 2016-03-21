@@ -29,6 +29,8 @@ C:\Users\Administrator\documents\visual studio 2015\Projects\BarCode\BarCode\Bar
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\BarCode.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\BarCode.pdb
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\en-US\BarCode.resources.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\DevExpress.Mobile.Core.v15.2.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\DevExpress.Mobile.Grid.v15.2.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\packagenuget.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\Plugin.Settings.Abstractions.dll
@@ -52,12 +54,12 @@ D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCo
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.Pages.MenuPage.xaml.g.cs
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.Pages.Receipt.PoAPage.xaml.g.cs
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.Pages.GridDemoPage.xaml.g.cs
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.Pages.DevExpressDataGrid.xaml.g.cs
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.Localization.TextResources.resources
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.Localization.TextResources.en-US.resources
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.csproj.GenerateResource.Cache
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\en-US\BarCode.resources.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.pdb
-D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\obj\Debug\BarCode.dll.mdb
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode\bin\Debug\BarCode.dll.mdb

@@ -31,7 +31,17 @@
         </d:DataGrid.FrozenColumn>
         <d:DataGrid.Columns>
 
-          <d:Column Width="150">
+          <d:Column Width="40">
+            <d:Column.HeaderView>
+              <Label Text="姓名" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+            </d:Column.HeaderView>
+            <d:Column.Template>
+              <DataTemplate>
+                <Label Text="{Binding SampleName}" BackgroundColor="White" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
+              </DataTemplate>
+            </d:Column.Template>
+          </d:Column>
+          <d:Column Width="40">
             <d:Column.HeaderView>
               <Label Text="文本" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
             </d:Column.HeaderView>
@@ -41,7 +51,7 @@
               </DataTemplate>
             </d:Column.Template>
           </d:Column>
-          <d:Column Width="150">
+          <d:Column Width="40">
             <d:Column.HeaderView>
               <Label Text="文本" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
             </d:Column.HeaderView>
@@ -51,7 +61,7 @@
               </DataTemplate>
             </d:Column.Template>
           </d:Column>
-          <d:Column Width="150">
+          <d:Column Width="40">
             <d:Column.HeaderView>
               <Label Text="文本" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
             </d:Column.HeaderView>
@@ -61,7 +71,7 @@
               </DataTemplate>
             </d:Column.Template>
           </d:Column>
-          <d:Column Width="150">
+          <d:Column Width="40">
             <d:Column.HeaderView>
               <Label Text="文本" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
             </d:Column.HeaderView>
@@ -71,17 +81,7 @@
               </DataTemplate>
             </d:Column.Template>
           </d:Column>
-          <d:Column Width="150">
-            <d:Column.HeaderView>
-              <Label Text="文本" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
-            </d:Column.HeaderView>
-            <d:Column.Template>
-              <DataTemplate>
-                <Label Text="{Binding SampleDescription}" BackgroundColor="White" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
-              </DataTemplate>
-            </d:Column.Template>
-          </d:Column>
-          <d:Column Width="150">
+          <d:Column Width="40">
             <d:Column.HeaderView>
               <Label Text="文本" BackgroundColor="Gray" TextColor="Black" XAlign="Center" YAlign="Center"></Label>
             </d:Column.HeaderView>

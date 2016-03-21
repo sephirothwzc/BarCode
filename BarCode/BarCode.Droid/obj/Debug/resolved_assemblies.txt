@@ -1,6 +1,8 @@
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\BarCode.Droid.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\BarCode.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\BCRManager_xamarin.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\DevExpress.Mobile.Core.Android.v15.2.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\DevExpress.Mobile.Grid.Android.v15.2.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\FormsViewGroup.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\ImageCircle.Forms.Plugin.Abstractions.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\ImageCircle.Forms.Plugin.Android.dll
@@ -78,11 +80,17 @@ D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.Xml.ReaderWriter.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.Xml.XDocument.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.Xml.XmlSerializer.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\DevExpress.Mobile.Grid.v15.2.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\DevExpress.Mobile.Core.v15.2.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.Data.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.Numerics.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.Transactions.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\Mono.Data.Tds.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\Mono.Security.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.Runtime.Serialization.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.ServiceModel.Internals.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.Net.Http.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.ComponentModel.DataAnnotations.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.ComponentModel.Composition.dll
-D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.Numerics.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\System.ServiceModel.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\assemblies\en-US\BarCode.resources.dll

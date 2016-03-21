@@ -76,8 +76,8 @@ namespace BarCode.Pages
                 },
                 new SampleObject
                 {
-                    SampleName = "王五",
-                    SampleDescription = "Dynamic generation of one million 'virtual' rows.",
+                    SampleName = "王五三",
+                    SampleDescription = "Dynamic generation",
 					OpenCode = () => {return new BarCode.Pages.Receipt.PoAPage();}
                     //OpenCode = () => { return new DynamicCode(); },
                     //OpenXaml = () => { return new DynamicXaml(); },
@@ -91,7 +91,14 @@ namespace BarCode.Pages
                     //OpenXaml = () => { return new XSquaredXaml(); },
                 },
             };
-			/*
+
+            //this.datagrid.Columns[0].Width = this.datagrid.Rows.Max(x => ((SampleObject)x).SampleName.Length) * 20;
+            //this.datagrid.Columns[1].Width = this.datagrid.Rows.Max(x => ((SampleObject)x).SampleDescription.Length) * 20;
+            //for (int i = 0; i < this.datagrid.Columns.Count(); i++)
+            //{
+            //    this.datagrid.Columns[i].Width = this.datagrid.Rows.Max(x => CommonCLR.BaseModel.GetPropertyValueLenth(x, this.datagrid.Columns[i].BindingContext.ToString()));
+            //}
+            /*
             for (int i = 0; i < 100; i++)
             {
                 datagrid.Rows.Add(new SampleObject

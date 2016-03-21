@@ -56,12 +56,16 @@ C:\Users\Administrator\documents\visual studio 2015\Projects\BarCode\BarCode\Bar
 C:\Users\Administrator\documents\visual studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BarCode.dll.mdb
 C:\Users\Administrator\documents\visual studio 2015\Projects\BarCode\BarCode\BarCode.Droid\obj\Debug\BarCode.Droid.dll.mdb
 C:\Users\Administrator\documents\visual studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BarCode.Droid.dll.mdb
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\DevExpress.Mobile.Grid.v15.2.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\DevExpress.Mobile.Core.v15.2.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BarCode.Droid.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BarCode.Droid.pdb
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BarCode.Droid.apk
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BarCode.Droid-Signed.apk
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BarCode.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\BCRManager_xamarin.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\DevExpress.Mobile.Core.Android.v15.2.dll
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\DevExpress.Mobile.Grid.Android.v15.2.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\FormsViewGroup.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.dll
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.Droid\bin\Debug\ImageCircle.Forms.Plugin.Android.dll

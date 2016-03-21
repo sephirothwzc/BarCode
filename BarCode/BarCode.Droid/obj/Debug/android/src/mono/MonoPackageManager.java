@@ -82,6 +82,8 @@ class MonoPackageManager_Resources {
 		"BarCode.Droid.dll",
 		"BarCode.dll",
 		"BCRManager_xamarin.dll",
+		"DevExpress.Mobile.Core.Android.v15.2.dll",
+		"DevExpress.Mobile.Grid.Android.v15.2.dll",
 		"FormsViewGroup.dll",
 		"ImageCircle.Forms.Plugin.Abstractions.dll",
 		"ImageCircle.Forms.Plugin.Android.dll",
@@ -153,6 +155,8 @@ class MonoPackageManager_Resources {
 		"System.Xml.ReaderWriter.dll",
 		"System.Xml.XDocument.dll",
 		"System.Xml.XmlSerializer.dll",
+		"DevExpress.Mobile.Grid.v15.2.dll",
+		"DevExpress.Mobile.Core.v15.2.dll",
 		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{

@@ -25,6 +25,7 @@ namespace BarCode.iOS
             global::Xamarin.Forms.Forms.Init();
 
             Zumero.DataGridComponent.Init();
+            DevExpress.Mobile.Forms.Init();
 
             LoadApplication(new App());
 
