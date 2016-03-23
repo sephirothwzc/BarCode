@@ -22,6 +22,11 @@ namespace BarCode.Pages
             ThemeManager.Theme.HeaderCustomizer.Font = myFont;
         }
 
+        void nameClient(object sender, EventArgs args)
+        {
+            DisplayAlert("Alert from ", "OK", "111");
+        }
+
         protected override void OnAppearing()
         {
             base.OnAppearing();
@@ -47,6 +52,29 @@ namespace BarCode.Pages
                 },
             };
 
+        }
+
+        void OnSwipeButtonShowing(object sender, DevExpress.Mobile.DataGrid.SwipeButtonShowingEventArgs e)
+        {
+            if ((!(Boolean)grid.GetCellValue(e.RowHandle, "Shipped"))
+                && (e.ButtonInfo.ButtonName == "RightButton"))
+            {
+                e.IsVisible = false;
+            }
+        }
+
+        void OnSwipeButtonClick(object sender, DevExpress.Mobile.DataGrid.SwipeButtonEventArgs e)
+        {
+            if (e.ButtonInfo.ButtonName == "LeftButton")
+            {
+                DateTime orderDate = (DateTime)grid.GetCellValue(e.RowHandle, "Date");
+                string orderDateDay = orderDate.ToString("dddd");
+                DisplayAlert("Alert from " + e.ButtonInfo.ButtonName, "Day: " + orderDateDay, "OK");
+            }
+            if (e.ButtonInfo.ButtonName == "RightButton")
+            {
+                grid.DeleteRow(e.RowHandle);
+            }
         }
     }
 

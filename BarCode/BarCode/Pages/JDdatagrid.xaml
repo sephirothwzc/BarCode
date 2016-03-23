@@ -8,6 +8,18 @@
                         AllowHorizontalScrollingVirtualization="True"
                         ColumnsAutoWidth="False">
     <dxGrid:GridControl.Columns>
+      <dxGrid:TemplateColumn   FieldName="Name"   Caption ="112" Width ="60"  IsReadOnly="true" AllowGroup="False" AllowSort="False" >
+        <dxGrid:TemplateColumn.DisplayTemplate>
+          <DataTemplate>
+            <Button Text="{Binding Value}"
+               Clicked="nameClient"
+                    BorderWidth="0" 
+									BackgroundColor="Green" 
+									TextColor="White"
+              ></Button>
+            </DataTemplate>
+        </dxGrid:TemplateColumn.DisplayTemplate>
+      </dxGrid:TemplateColumn>
       <dxGrid:TextColumn FieldName="Name" Caption = "名字" Width = "100" />
       <dxGrid:NumberColumn FieldName="UnitPrice" Caption = "价格" DisplayFormat="C0"/>
       <dxGrid:DateColumn FieldName="Date" DisplayFormat="d"/>
@@ -18,6 +30,11 @@
       <dxGrid:TextColumn FieldName="Name" Caption = "Product" />
       <dxGrid:TextColumn FieldName="Name" Caption = "Product" />
       <dxGrid:TextColumn FieldName="Name" Caption = "Product" />
+
     </dxGrid:GridControl.Columns>
+    <dxGrid:GridControl.LeftSwipeButtons>
+      <dxGrid:SwipeButtonInfo ButtonName="LeftButton" Caption="打印" BackgroundColor="Green" Width="150"/>
+    </dxGrid:GridControl.LeftSwipeButtons>
   </dxGrid:GridControl>
+
 </ContentPage>
