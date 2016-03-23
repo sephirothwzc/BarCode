@@ -7,7 +7,8 @@ public class CustomSimpleOnScaleGestureListener
 		mono.android.IGCUserPeer,
 		android.view.ScaleGestureDetector.OnScaleGestureListener
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onScaleBegin:(Landroid/view/ScaleGestureDetector;)Z:GetOnScaleBegin_Landroid_view_ScaleGestureDetector_Handler\n" +
@@ -49,7 +50,7 @@ public class CustomSimpleOnScaleGestureListener
 
 	private native void n_onScaleEnd (android.view.ScaleGestureDetector p0);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

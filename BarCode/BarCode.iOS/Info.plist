@@ -21,7 +21,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>9.2</string>
+	<string>6.0</string>
 	<key>CFBundleDisplayName</key>
 	<string>BarCode</string>
 	<key>CFBundleIdentifier</key>

@@ -52,5 +52,6 @@ D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\BarCode.iOS.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\BarCodeiOS.exe
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\BarCodeiOS.pdb
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\bin\iPhone\Debug\BarCode.dll.mdb
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\BarCodeiOS.exe.mdb
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\bin\iPhone\Debug\BarCodeiOS.exe.mdb

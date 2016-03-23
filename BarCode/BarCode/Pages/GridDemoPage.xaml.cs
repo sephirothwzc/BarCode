@@ -15,6 +15,7 @@ namespace BarCode.Pages
 		public GridDemoPage()
         {
             InitializeComponent();
+
         }
 
 		/// <summary>

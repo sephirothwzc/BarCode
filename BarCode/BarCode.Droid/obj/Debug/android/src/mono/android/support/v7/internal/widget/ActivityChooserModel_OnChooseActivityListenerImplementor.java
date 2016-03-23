@@ -7,7 +7,8 @@ public class ActivityChooserModel_OnChooseActivityListenerImplementor
 		mono.android.IGCUserPeer,
 		android.support.v7.internal.widget.ActivityChooserModel.OnChooseActivityListener
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onChooseActivity:(Landroid/support/v7/internal/widget/ActivityChooserModel;Landroid/content/Intent;)Z:GetOnChooseActivity_Landroid_support_v7_internal_widget_ActivityChooserModel_Landroid_content_Intent_Handler:Android.Support.V7.Internal.Widget.ActivityChooserModel/IOnChooseActivityListenerInvoker, Xamarin.Android.Support.v7.AppCompat\n" +
@@ -31,7 +32,7 @@ public class ActivityChooserModel_OnChooseActivityListenerImplementor
 
 	private native boolean n_onChooseActivity (android.support.v7.internal.widget.ActivityChooserModel p0, android.content.Intent p1);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

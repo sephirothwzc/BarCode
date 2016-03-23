@@ -6,7 +6,8 @@ public class FormsFragmentPagerAdapter_1
 	implements
 		mono.android.IGCUserPeer
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_getCount:()I:GetGetCountHandler\n" +
@@ -66,7 +67,7 @@ public class FormsFragmentPagerAdapter_1
 
 	private native java.lang.CharSequence n_getPageTitle (int p0);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

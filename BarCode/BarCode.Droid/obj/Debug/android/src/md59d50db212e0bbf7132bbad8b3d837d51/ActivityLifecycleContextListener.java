@@ -7,7 +7,8 @@ public class ActivityLifecycleContextListener
 		mono.android.IGCUserPeer,
 		android.app.Application.ActivityLifecycleCallbacks
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onActivityCreated:(Landroid/app/Activity;Landroid/os/Bundle;)V:GetOnActivityCreated_Landroid_app_Activity_Landroid_os_Bundle_Handler:Android.App.Application/IActivityLifecycleCallbacksInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
@@ -85,7 +86,7 @@ public class ActivityLifecycleContextListener
 
 	private native void n_onActivityStopped (android.app.Activity p0);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

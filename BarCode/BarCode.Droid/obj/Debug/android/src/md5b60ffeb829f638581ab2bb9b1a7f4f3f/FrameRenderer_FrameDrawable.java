@@ -6,7 +6,8 @@ public class FrameRenderer_FrameDrawable
 	implements
 		mono.android.IGCUserPeer
 {
-	static final String __md_methods;
+/** @hide */
+	public static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_isStateful:()Z:GetIsStatefulHandler\n" +
@@ -75,7 +76,7 @@ public class FrameRenderer_FrameDrawable
 
 	private native void n_setColorFilter (android.graphics.ColorFilter p0);
 
-	java.util.ArrayList refList;
+	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)
