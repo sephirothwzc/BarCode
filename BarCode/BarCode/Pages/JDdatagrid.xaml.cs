@@ -24,7 +24,8 @@ namespace BarCode.Pages
 
         void nameClient(object sender, EventArgs args)
         {
-            DisplayAlert("Alert from ", "OK", "111");
+            var jdp = ((Button)sender).BindingContext as JDProduct;
+            DisplayAlert("Alert from ", "OK"+jdp.Shipped , "111");
         }
 
         protected override void OnAppearing()

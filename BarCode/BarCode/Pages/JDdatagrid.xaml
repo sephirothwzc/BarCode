@@ -11,8 +11,9 @@
       <dxGrid:TemplateColumn   FieldName="Name"   Caption ="112" Width ="60"  IsReadOnly="true" AllowGroup="False" AllowSort="False" >
         <dxGrid:TemplateColumn.DisplayTemplate>
           <DataTemplate>
-            <Button Text="{Binding Value}"
+            <Button Text="{Binding Name}"
                Clicked="nameClient"
+                    BindingContext="{Binding Source}"
                     BorderWidth="0" 
 									BackgroundColor="Green" 
 									TextColor="White"
