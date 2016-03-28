@@ -7,8 +7,7 @@ public class ActionSheetRenderer
 		mono.android.IGCUserPeer,
 		android.view.View.OnClickListener
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_cancel:()V:GetCancelHandler\n" +
@@ -75,7 +74,7 @@ public class ActionSheetRenderer
 
 	private native void n_onClick (android.view.View p0);
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

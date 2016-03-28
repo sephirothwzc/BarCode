@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BarCode.CommonCLR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ namespace BarCode
         public static IWebClient_clr webclient { get; set; }
 
         public static IScanning Iscan { get; set; }
+
 
         public CommCLR(IWebClient_clr wc,IScanning scan)
         {

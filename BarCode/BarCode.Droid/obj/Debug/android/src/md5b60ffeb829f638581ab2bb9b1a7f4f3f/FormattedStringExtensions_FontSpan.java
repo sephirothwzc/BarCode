@@ -6,8 +6,7 @@ public class FormattedStringExtensions_FontSpan
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_updateDrawState:(Landroid/text/TextPaint;)V:GetUpdateDrawState_Landroid_text_TextPaint_Handler\n" +
@@ -40,7 +39,7 @@ public class FormattedStringExtensions_FontSpan
 
 	private native void n_updateMeasureState (android.text.TextPaint p0);
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

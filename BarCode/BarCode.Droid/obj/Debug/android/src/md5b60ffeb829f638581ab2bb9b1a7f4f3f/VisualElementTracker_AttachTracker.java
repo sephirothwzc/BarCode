@@ -7,8 +7,7 @@ public class VisualElementTracker_AttachTracker
 		mono.android.IGCUserPeer,
 		android.view.View.OnAttachStateChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onViewAttachedToWindow:(Landroid/view/View;)V:GetOnViewAttachedToWindow_Landroid_view_View_Handler:Android.Views.View/IOnAttachStateChangeListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
@@ -41,7 +40,7 @@ public class VisualElementTracker_AttachTracker
 
 	private native void n_onViewDetachedFromWindow (android.view.View p0);
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

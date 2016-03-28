@@ -11,6 +11,7 @@ namespace BarCode.Pages
 {
     public partial class JDdatagrid : ContentPage
     {
+
         public JDdatagrid()
         {
             InitializeComponent();
@@ -20,12 +21,19 @@ namespace BarCode.Pages
                                        DevExpress.Mobile.DataGrid.ThemeFontAttributes.FontSizeFromNamedSize(NamedSize.Large),
                                        FontAttributes.None, Color.White);
             ThemeManager.Theme.HeaderCustomizer.Font = myFont;
+
+            this.grid.SelectionChanged += (send,e) => 
+            {
+                System.Collections.ObjectModel.ObservableCollection<JDProduct> jd =(System.Collections.ObjectModel.ObservableCollection<JDProduct>)this.grid.ItemsSource;
+
+                DisplayAlert("Alert from ", "OK" + jd[e.RowHandle].Name, "OK");
+            };
         }
 
         void nameClient(object sender, EventArgs args)
         {
             var jdp = ((Button)sender).BindingContext as JDProduct;
-            DisplayAlert("Alert from ", "OK"+jdp.Shipped , "111");
+            DisplayAlert("Alert from ", "OK"+jdp.Shipped, "OK");
         }
 
         protected override void OnAppearing()

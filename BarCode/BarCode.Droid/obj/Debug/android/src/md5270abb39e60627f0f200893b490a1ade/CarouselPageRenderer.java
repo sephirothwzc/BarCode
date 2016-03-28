@@ -7,8 +7,7 @@ public class CarouselPageRenderer
 		mono.android.IGCUserPeer,
 		android.support.v4.view.ViewPager.OnPageChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onAttachedToWindow:()V:GetOnAttachedToWindowHandler\n" +
@@ -93,7 +92,7 @@ public class CarouselPageRenderer
 
 	private native void n_onPageSelected (int p0);
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

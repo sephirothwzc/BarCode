@@ -53,10 +53,12 @@
       <HintPath>..\..\..\BCRManager_xamarin.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Mobile.Core.Android.v15.2">
-      <HintPath>..\..\..\..\..\devexpress-grid-15.2.4.0\lib\android\DevExpress.Mobile.Core.Android.v15.2.dll</HintPath>
+      <HintPath>..\..\packages\devexpress-grid-15.2.4.0\lib\android\DevExpress.Mobile.Core.Android.v15.2.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="DevExpress.Mobile.Grid.Android.v15.2">
-      <HintPath>..\..\..\..\..\devexpress-grid-15.2.4.0\lib\android\DevExpress.Mobile.Grid.Android.v15.2.dll</HintPath>
+      <HintPath>..\..\packages\devexpress-grid-15.2.4.0\lib\android\DevExpress.Mobile.Grid.Android.v15.2.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="FormsViewGroup, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.0.0.6490\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
@@ -173,7 +175,9 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Properties\AndroidManifest.xml" />
+    <Content Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <AndroidResource Include="Resources\drawable\about_background.png" />
     <AndroidResource Include="Resources\drawable\add_android_blue.png" />
     <AndroidResource Include="Resources\drawable\add_android_gray.png" />

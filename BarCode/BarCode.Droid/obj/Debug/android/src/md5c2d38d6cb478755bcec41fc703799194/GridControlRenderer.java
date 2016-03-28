@@ -6,8 +6,7 @@ public class GridControlRenderer
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_detachViewFromParent:(I)V:GetDetachViewFromParent_IHandler\n" +
@@ -65,7 +64,7 @@ public class GridControlRenderer
 
 	private native void n_onAttachedToWindow ();
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

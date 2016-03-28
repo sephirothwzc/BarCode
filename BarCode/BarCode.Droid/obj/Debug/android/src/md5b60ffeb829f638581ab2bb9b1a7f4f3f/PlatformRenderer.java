@@ -6,8 +6,7 @@ public class PlatformRenderer
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onMeasure:(II)V:GetOnMeasure_IIHandler\n" +
@@ -73,7 +72,7 @@ public class PlatformRenderer
 
 	private native boolean n_dispatchTouchEvent (android.view.MotionEvent p0);
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

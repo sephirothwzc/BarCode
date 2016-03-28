@@ -6,8 +6,7 @@ public class ExtendedScrollViewRenderer
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onScrollChanged:(IIII)V:GetOnScrollChanged_IIIIHandler\n" +
@@ -82,7 +81,7 @@ public class ExtendedScrollViewRenderer
 
 	private native boolean n_onTouchEvent (android.view.MotionEvent p0);
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

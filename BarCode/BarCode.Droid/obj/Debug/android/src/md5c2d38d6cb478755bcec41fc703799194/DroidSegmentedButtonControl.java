@@ -6,8 +6,7 @@ public class DroidSegmentedButtonControl
 	implements
 		mono.android.IGCUserPeer
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onFinishInflate:()V:GetOnFinishInflateHandler\n" +
@@ -39,7 +38,7 @@ public class DroidSegmentedButtonControl
 
 	private native void n_onFinishInflate ();
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

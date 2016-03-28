@@ -30,9 +30,7 @@ D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\bin\iPhone\
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.xml
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\bin\iPhone\Debug\Xamarin.Forms.Xaml.xml
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\bin\iPhone\Debug\en-US\BarCode.resources.dll
-D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\ibtool\LaunchScreen.storyboardc\Info.plist
-D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\ibtool\LaunchScreen.storyboardc\UIViewController-X5k-f2-b5h.nib
-D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\ibtool\LaunchScreen.storyboardc\X5k-f2-b5h-view-yd7-JS-zBw.nib
+D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\optimized\Default-568h@2x.png
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\optimized\Default-Portrait.png
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\optimized\Default-Portrait@2x.png
@@ -52,6 +50,5 @@ D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\BarCode.iOS.csprojResolveAssemblyReference.cache
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\BarCodeiOS.exe
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\BarCodeiOS.pdb
-D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\bin\iPhone\Debug\BarCode.dll.mdb
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\obj\iPhone\Debug\BarCodeiOS.exe.mdb
 D:\Documents\Visual Studio 2015\Projects\BarCode\BarCode\BarCode.iOS\bin\iPhone\Debug\BarCodeiOS.exe.mdb

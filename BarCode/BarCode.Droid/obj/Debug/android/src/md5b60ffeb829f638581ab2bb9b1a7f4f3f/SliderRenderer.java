@@ -7,8 +7,7 @@ public class SliderRenderer
 		mono.android.IGCUserPeer,
 		android.widget.SeekBar.OnSeekBarChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
@@ -75,7 +74,7 @@ public class SliderRenderer
 
 	private native void n_onStopTrackingTouch (android.widget.SeekBar p0);
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

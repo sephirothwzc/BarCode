@@ -7,8 +7,7 @@ public abstract class ViewRenderer_2
 		mono.android.IGCUserPeer,
 		android.view.View.OnFocusChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
@@ -57,7 +56,7 @@ public abstract class ViewRenderer_2
 
 	private native void n_onFocusChange (android.view.View p0, boolean p1);
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

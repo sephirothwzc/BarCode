@@ -7,8 +7,7 @@ public class VisualTreeHelper
 		mono.android.IGCUserPeer,
 		android.view.ViewGroup.OnHierarchyChangeListener
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onChildViewAdded:(Landroid/view/View;Landroid/view/View;)V:GetOnChildViewAdded_Landroid_view_View_Landroid_view_View_Handler:Android.Views.ViewGroup/IOnHierarchyChangeListenerInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
@@ -41,7 +40,7 @@ public class VisualTreeHelper
 
 	private native void n_onChildViewRemoved (android.view.View p0, android.view.View p1);
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)

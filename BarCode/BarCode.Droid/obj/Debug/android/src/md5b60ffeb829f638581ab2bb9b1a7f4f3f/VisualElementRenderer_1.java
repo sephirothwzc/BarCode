@@ -8,8 +8,7 @@ public abstract class VisualElementRenderer_1
 		android.view.View.OnTouchListener,
 		android.view.View.OnClickListener
 {
-/** @hide */
-	public static final String __md_methods;
+	static final String __md_methods;
 	static {
 		__md_methods = 
 			"n_onLayout:(ZIIII)V:GetOnLayout_ZIIIIHandler\n" +
@@ -67,7 +66,7 @@ public abstract class VisualElementRenderer_1
 
 	private native void n_onClick (android.view.View p0);
 
-	private java.util.ArrayList refList;
+	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
 	{
 		if (refList == null)
